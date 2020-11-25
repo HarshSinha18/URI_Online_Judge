@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Ques{
+public class Fuel{
 public static void main(String[] args){
 Scanner sc = new Scanner(System.in);
 System.out.println(" 1. Alcohal "+"\n"+" 2. Gasoline  "+"\n"+" 3. Disel  " +"\n"+" 4. Exit " );
