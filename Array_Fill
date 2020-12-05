@@ -3,14 +3,16 @@ public class Array_Fill{
 public static void main(String[] args){
 Scanner sc = new Scanner(System.in);
 int i =0;
+int w = 1;
 System.out.print("Enter Number for First Position : ");
 int num = sc.nextInt();
-int a[]  = new int[10];
+int a[]  = new int[11];
 for (i = 0 ; i<10 ; i++){
 a[0] = num;
-a[i]= i*2;
+w*=2;
+a[i+1] = w;
 }
-for(i = 0 ; i<10 ; i++){
+for(i = 0; i<10 ; i++){
 System.out.println("a["+i+"] = "+a[i]);
 }
 }
