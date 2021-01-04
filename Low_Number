@@ -12,6 +12,6 @@ int num = sc.nextInt();
 if(low>=num)
 low = num;
 }
-System.out.print("High Number among all Number are: "+low);
+System.out.print("Low Number among all Number are: "+low);
 }
 }
